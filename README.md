@@ -14,3 +14,15 @@ How it works: The program calls printf multiple times to print rows of character
 What the program does: The program asks the user to enter two integers, calculates their sum, difference, product, and quotient, and then displays the results of these arithmetic operations to the screen.
 Concepts used: Standard input/output (scanf, printf), integer variables, basic arithmetic operators (+, -, *, /).
 How it works: The program declares variables for the inputs (num1, num2) and the calculated values (sum, difference, product, quotient). It prompts the user for two integer inputs using printf and stores them using scanf. Then, it evaluates each arithmetic operation sequentially and assigns the results to their respective variables. Finally, it uses printf statements to print each result on a new line.
+
+
+
+
+
+## Exercise 3 - Decisions
+Source: Deitel & Deitel, C How to Program, 9th Edition, Chapter 2, Exercise 2.16 page 134
+What the program does: The program asks the user to enter an integer and determines whether the number is even or odd, displaying the result to the console.
+Concepts used: Standard input/output (scanf, printf), integer variables, conditional statements (if-else), and the modulus operator (%).
+How it works: The program prompts the user for an integer and stores it in the variable number. It then uses the modulus operator (number % 2) to calculate the remainder when dividing the input by 2. If the remainder equals 0, the program executes the if block and prints that the number is even; otherwise, it executes the else block and prints that the number is 0
+
+
