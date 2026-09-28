@@ -26,3 +26,15 @@ Concepts used: Standard input/output (scanf, printf), integer variables, conditi
 How it works: The program prompts the user for an integer and stores it in the variable number. It then uses the modulus operator (number % 2) to calculate the remainder when dividing the input by 2. If the remainder equals 0, the program executes the if block and prints that the number is even; otherwise, it executes the else block and prints that the number is 0
 
 
+## Exercise 4 - Basic loops
+*Program Title and Category:** Print Odd Numbers Sequence (Control Structures / Loops)
+
+**Textbook Reference:** Source: Deitel & Deitel, C How to Program, 9th Edition, Chapter4, Exercise4.7a, page 224
+
+**What the program does:** The program generates and prints a continuous sequence of positive odd integers from 1 up to 13 without spaces or line breaks
+
+**Concepts used:** `for` loop, integer loop counter, step incrementation (`+= 2`), standard formatted output (`printf`)
+
+**How it works:** The program initializes an integer loop counter variable `i` at `1` The `for` loop checks if `i` is less than or equal to `13` (`i <= 13`)
+
+
