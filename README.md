@@ -49,3 +49,10 @@ How it works: The program prompts the user for an integer and stores it in the v
 
 **How it works:** The program initializes an integer variable `sum` to `0`. A `for` loop is set up with a counter `i` starting at `7`. In each iteration, the program adds `i` to `sum` and increments `i` by `7` (`i += 7`). The loop continues running as long as `i` is less than or equal to `100` (`i <= 100`). Once `i` exceeds `100`, the loop terminates, and the final accumulated result is printed.
 
+## Exercise 6 - loop with user input
+Interest Calculator - loop with user input
+​Source: Deitel & Deitel, C How to Program, 9th Edition, Chapter 3, Exercise 3.19  
+​What the program does: The program calculates the simple interest charge on several loans by repeatedly prompting the user to enter loan principal, interest rate, and term in days until a sentinel value (-1) is entered.  
+​Concepts used: while loop, floating-point variables (double), formatted I/O (printf, scanf), sentinel control.  
+​How it works: The program begins by asking the user to enter the loan principal. The while loop checks if the principal is greater than 0 (or not equal to -1). Inside the loop, it prompts for the annual interest rate and the loan duration in days, calculates the interest, prints the result formatted to two decimal places and then prompts for the next principal amount to repeat or terminate the loop.
+
