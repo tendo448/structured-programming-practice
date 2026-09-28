@@ -38,3 +38,14 @@ How it works: The program prompts the user for an integer and stores it in the v
 **How it works:** The program initializes an integer loop counter variable `i` at `1` The `for` loop checks if `i` is less than or equal to `13` (`i <= 13`)
 
 
+## Exercise 5 - Loop with calculation
+# Sum of Multiples of 7 - Basic Loop
+
+**Source:** Deitel & Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.11
+
+**What the program does:** This program calculates the total sum of all integer multiples of 7 starting from 1 up to 100 and outputs the final sum to the console.
+
+**Concepts used:** `for` loop, integer variables,  `printf`
+
+**How it works:** The program initializes an integer variable `sum` to `0`. A `for` loop is set up with a counter `i` starting at `7`. In each iteration, the program adds `i` to `sum` and increments `i` by `7` (`i += 7`). The loop continues running as long as `i` is less than or equal to `100` (`i <= 100`). Once `i` exceeds `100`, the loop terminates, and the final accumulated result is printed.
+
