@@ -56,3 +56,16 @@ Interest Calculator - loop with user input
 ​Concepts used: while loop, floating-point variables (double), formatted I/O (printf, scanf), sentinel control.  
 ​How it works: The program begins by asking the user to enter the loan principal. The while loop checks if the principal is greater than 0 (or not equal to -1). Inside the loop, it prompts for the annual interest rate and the loan duration in days, calculates the interest, prints the result formatted to two decimal places and then prompts for the next principal amount to repeat or terminate the loop.
 
+## Exercise 7 - loop with decisions
+Credit Limit Calculator - Control Statements
+​Source: Deitel  &  Deitel, C How to Program, 9th Edition, Chapter 4, Exercise 4.17 (Credit Limit Calculator)
+​What the program does: The program processes account information for three customers to determine if their current account balance exceeds their newly adjusted credit limit. It prompts the user to enter each customer's account number, previous credit limit, and current balance, calculates a new credit limit by cutting the old limit in half, and displays a warning if the balance is too high.
+​Concepts used: for loop, double and int data types, formatted I/O (printf, scanf), decision-making statement (if...else), basic arithmetic operators.
+​How it works:
+​The program enters a for loop that iterates 3 times to handle three separate customer records.
+​During each iteration, it prompts for and reads the customer's account number (int), old credit limit (double), and current balance (double).
+​It calculates new_limit by dividing old_limit by 2.0.
+​It outputs the new credit limit formatted to two decimal places.
+​An if...else block compares current_balance against new_limit. If the balance is strictly greater than the new limit, it prints a warning message containing the balance; otherwise, it outputs that the balance is within the new limit.
+
+
