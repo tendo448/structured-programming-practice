@@ -69,3 +69,18 @@ Credit Limit Calculator - Control Statements
 ​An if...else block compares current_balance against new_limit. If the balance is strictly greater than the new limit, it prints a warning message containing the balance; otherwise, it outputs that the balance is within the new limit.
 
 
+## Exercise 8 - interactive console program
+Sales Commission Calculator - Control Statements
+​Source: Deitel & Deitel, C How to Program, 9th Edition, Chapter 3, Exercise 3.18 (Sales Commission Calculator)
+​What the program does: The program calculates the total weekly earnings for a salesperson based on their gross sales. It receives the salesperson's sales amount, adds a 9% commission on those sales to a base salary of $200, displays the calculated salary, and continues processing entries until a sentinel value (-1) is entered. It also handles basic input validation by displaying an error message if a negative sales amount is entered.
+​Concepts used: while loop with sentinel-controlled repetition, double  data type, formatted I/O (printf, scanf), decision-making statement (if...else), basic arithmetic operators.
+​How it works:
+​The program prompts the user to input the initial sales amount in dollars or -1 to quit.
+​A while loop checks if sales is not equal to -1.0.
+​Inside the loop, an if...else block checks if the entered sales value is negative (less than 0).
+​If negative, it displays an error message stating that salary cannot be negative.
+​Otherwise, it calculates earnings using the formula: 200.0 + (\text{sales} \times 0.09) and prints the calculated salary formatted to two decimal places.
+​Before concluding the current iteration, the program prompts the user again for the next sales amount to determine whether to continue or exit the loop.
+
+
+
